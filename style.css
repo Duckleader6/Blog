@@ -16,12 +16,29 @@ header {
     padding: 2.5rem 2rem;
     border-bottom: 3px solid #e8b923;
     box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
 header h1 {
     font-size: 2rem;
     font-weight: 700;
     letter-spacing: -0.5px;
+}
+
+header nav a {
+    color: #2c3e50;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 1.1rem;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+header nav a:hover {
+    background-color: rgba(44, 62, 80, 0.1);
 }
 
 main {
