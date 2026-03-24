@@ -29,7 +29,7 @@ header h1 {
 
 header nav a {
     color: #2c3e50;
-    text-decoration: none;
+    text-decoration: underline;
     font-weight: 600;
     font-size: 1.1rem;
     padding: 0.5rem 1rem;
