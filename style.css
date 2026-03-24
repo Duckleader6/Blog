@@ -30,17 +30,20 @@ main {
     padding: 3rem 2rem;
 }
 
+body.home main {
+    max-width: 1000px;
+}
+
 .home-container {
-    display: grid;
-    grid-template-columns: 250px 1fr;
-    gap: 2rem;
     max-width: 1000px;
     margin: 0 auto;
 }
 
 .about-sidebar {
-    position: sticky;
+    position: fixed;
+    left: 2rem;
     top: 2rem;
+    width: 250px;
     height: fit-content;
 }
 
@@ -147,11 +150,10 @@ main {
     }
 
     .home-container {
-        grid-template-columns: 1fr;
     }
 
     .about-sidebar {
-        position: static;
+        display: none;
     }
 
     .post-link {
