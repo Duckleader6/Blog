@@ -97,15 +97,16 @@ main {
 }
 
 .blog-link {
-    color: #d35400;
-    font-weight: 700;
+    color: inherit;
+    font-weight: inherit;
     text-decoration: none;
     border-bottom: 2px dashed transparent;
     transition: color 0.25s ease, border-color 0.25s ease, transform 0.15s ease;
+    cursor: pointer;
 }
 
 .blog-link:hover {
-    color: #b03a2e;
+    color: #d35400;
     border-color: #d35400;
     transform: translateY(-1px);
 }
